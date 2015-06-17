@@ -1,0 +1,164 @@
+/*
+*******************
+* =header
+*******************
+*/
+header {
+	overflow: hidden;
+}
+
+header h1 {
+	font-size: 22px;
+	float: left;
+	margin-bottom: 0;
+}
+
+/*
+*******************
+* =nav
+*******************
+*/
+nav {
+	margin-left: 180px;
+	padding-top: 12px;
+}
+
+nav li {
+	display: inline;
+}
+/*
+*******************
+* =search
+*******************
+*/
+
+
+/*
+*******************
+* =banner
+*******************
+*/
+.banner {
+	background: url(../img/banner.jpg) no-repeat;
+	width: 1080px;
+	height: 300px;
+	clear: both;
+	position: relative;
+	margin-bottom: 5px;
+	margin-top: 52px;
+}
+
+.banner .box {
+	color: black;
+	width: 215px;
+	font-weight: normal;
+	position: absolute;
+	bottom: 22px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	left: 240px;
+	background: white;
+}
+
+.banner .box h3 {
+	color: grey;
+	font-size: 13px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.banner .box h2 {
+	color: red;
+	font-size: 17px;
+	font-weight: normal;
+	text-decoration: none;
+	margin-top: -12px;
+}
+
+.banner .box p {
+	color: black;
+	font-size: 12px;
+	margin-bottom: -15px;
+}
+
+/*
+*******************
+* =general
+*******************
+*/
+a {
+	color: red;
+	text-decoration: none;
+}
+
+p, h1, h2, h3, h4 {
+	font-family: georgia;
+	font-variant: helvetica;
+}
+
+.grid_6 {
+	border-top: 1px dotted #d1d1d1;
+}
+
+.arrows {
+	color: red;
+	font-weight: normal;
+	font-size: 18px;
+	float: right;
+	margin-bottom: 50px;
+}
+
+.search {
+	clear: both;
+	float: right;
+	margin-top: -39px;
+}
+
+#searchButton {
+	background: url('../img/search.png') no-repeat;
+	width: 16px;
+	height: 16px;
+	border: 0px;
+}
+
+.grid_6 h3 {
+	clear: both;
+	color: red;
+	font-size: 12px;
+	font-weight: normal;
+	padding-top: 15px;
+	margin-bottom: -2px;
+}
+
+.grid_6 p {
+	clear: both;
+	color: black;
+	font-size: 12px;
+	font-weight: normal;
+	margin-bottom: 82px;
+}
+
+.grid_6 img {
+	float: right;
+	margin-top: 30px;
+	margin-right: 60px;
+	margin-bottom: 12px;
+}
+
+#left h3{
+	color: red;
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+#left p {
+	font-size: 13px;
+	margin-bottom: 150px;
+}
+
+#left #second {
+	color: black;
+}
