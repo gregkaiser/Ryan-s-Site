@@ -9,8 +9,9 @@ header {
 
 header h1 {
 	font-size: 22px;
+	font-family: helvetica;
 	float: left;
-	margin-bottom: 0;
+	margin-top: 6px;
 }
 
 /*
@@ -63,6 +64,7 @@ nav li {
 }
 
 .banner .box h3 {
+	font-family: helvetica;
 	color: grey;
 	font-size: 13px;
 	font-weight: normal;
@@ -70,7 +72,7 @@ nav li {
 }
 
 .banner .box h2 {
-	color: red;
+	color: rgb(200,0,5);
 	font-size: 17px;
 	font-weight: normal;
 	text-decoration: none;
@@ -89,7 +91,7 @@ nav li {
 *******************
 */
 a {
-	color: red;
+	color: rgb(200,0,5);
 	text-decoration: none;
 }
 
@@ -103,7 +105,7 @@ p, h1, h2, h3, h4 {
 }
 
 .arrows {
-	color: red;
+	color: rgb(200,0,5);
 	font-weight: normal;
 	font-size: 18px;
 	float: right;
@@ -125,7 +127,7 @@ p, h1, h2, h3, h4 {
 
 .grid_6 h3 {
 	clear: both;
-	color: red;
+	color: rgb(200,0,5);
 	font-size: 12px;
 	font-weight: normal;
 	padding-top: 15px;
@@ -147,9 +149,13 @@ p, h1, h2, h3, h4 {
 	margin-bottom: 12px;
 }
 
+.grid_6 img:first-child {
+	box-shadow: 0px 0px 6px 6px rgba(200,0,5,.9);
+}
+
 #left h3{
-	color: red;
-	font-size: 16px;
+	color: rgb(200,0,5);
+	font-size: 14px;
 	font-weight: normal;
 	margin-bottom: 10px;
 }
